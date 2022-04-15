@@ -204,7 +204,7 @@ if __name__ == "__main__":
     pr(chromosomes)
     print(''.center(58,'-'),end='\n\n')
 
-    def startAlgorythm():
+    def startAlgorithm():
         selection(chromosomes)
         crossing(chromosomes)
         mutation(chromosomes)
@@ -214,7 +214,7 @@ if __name__ == "__main__":
         counter = 0
         while counter < 8:
             sum_prev = sumofvalues(chromosomes)
-            startAlgorythm()
+            startAlgorithm()
             sum_now = sumofvalues(chromosomes)
             if sum_prev <= sum_now:
                 counter += 1
